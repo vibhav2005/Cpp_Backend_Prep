@@ -112,3 +112,6 @@ This folder is for deeper revision and stronger problem-solving thinking. The re
 ## Note
 
 I will not rush through these topics. I will first understand each concept and then solve one problem per concept to build confidence and clarity.
+
+
+NOTE = MODDDIFY CMAKE LISTS ACCORDING TO THE FILE U WANT TO RUN!

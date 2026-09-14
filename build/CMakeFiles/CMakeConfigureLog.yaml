@@ -5,14 +5,14 @@ events:
     kind: "message-v1"
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Windows - 10.0.26200 - AMD64
   -
     kind: "find-v1"
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_MAKE_PROGRAM"
     description: "Program used to build from build.ninja files."
@@ -29,6 +29,8 @@ events:
       - "ninja"
       - "samu"
     candidate_directories:
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
       - "C:/Windows/System32/"
@@ -54,7 +56,27 @@ events:
       - "C:/Users/Vibhav verma/AppData/Roaming/npm/"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/"
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ninja-build.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ninja-build.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ninja-build"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ninja.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ninja.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/ninja"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/samu.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/samu.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/samu"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ninja-build.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ninja-build.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ninja-build"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ninja.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ninja.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/ninja"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/samu.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/samu.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/samu"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/ninja-build.com"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/ninja-build.exe"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/ninja-build"
@@ -278,6 +300,8 @@ events:
     found: "C:/msys64/ucrt64/bin/ninja.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
         - "C:\\WINDOWS\\system32"
@@ -304,12 +328,14 @@ events:
         - "C:\\Users\\Vibhav verma\\AppData\\Roaming\\npm"
         - "C:\\Users\\Vibhav verma\\PyCharm Community Edition 2024.3.3\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Vibhav verma\\AppData\\Local\\Programs\\Ollama"
+        - "c:\\Users\\Vibhav verma\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER"
     description: "CXX compiler"
@@ -329,6 +355,8 @@ events:
       - "icx"
       - "clang++"
     candidate_directories:
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
       - "C:/Windows/System32/"
@@ -354,7 +382,45 @@ events:
       - "C:/Users/Vibhav verma/AppData/Roaming/npm/"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/"
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/c++.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/c++.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/c++"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/g++.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/g++.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/g++"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/cl.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/cl.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/cl"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/bcc.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/bcc.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/bcc"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/icx.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/icx.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/icx"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang++.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang++.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/clang++"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/c++.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/c++.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/c++"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/g++.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/g++.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/g++"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/cl.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/cl.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/cl"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/bcc.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/bcc.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/bcc"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/icx.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/icx.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/icx"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang++.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang++.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/clang++"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/c++.com"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/c++.exe"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/c++"
@@ -791,6 +857,8 @@ events:
     found: "C:/msys64/ucrt64/bin/c++.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
         - "C:\\WINDOWS\\system32"
@@ -817,6 +885,8 @@ events:
         - "C:\\Users\\Vibhav verma\\AppData\\Roaming\\npm"
         - "C:\\Users\\Vibhav verma\\PyCharm Community Edition 2024.3.3\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Vibhav verma\\AppData\\Local\\Programs\\Ollama"
+        - "c:\\Users\\Vibhav verma\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -825,7 +895,7 @@ events:
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -844,6 +914,8 @@ events:
     found: "C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
         - "C:\\WINDOWS\\system32"
@@ -870,13 +942,15 @@ events:
         - "C:\\Users\\Vibhav verma\\AppData\\Roaming\\npm"
         - "C:\\Users\\Vibhav verma\\PyCharm Community Edition 2024.3.3\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Vibhav verma\\AppData\\Local\\Programs\\Ollama"
+        - "c:\\Users\\Vibhav verma\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler: C:/msys64/ucrt64/bin/c++.exe 
@@ -890,14 +964,14 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        E:/CPP_Projects/CPP_Practise/build/CMakeFiles/4.3.3/CompilerIdCXX/a.exe
+        E:/CPP_Projects/CPP-Backend-Prep/build/CMakeFiles/4.3.3/CompilerIdCXX/a.exe
       
   -
     kind: "find-v1"
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_AR"
     description: "Path to a program."
@@ -913,6 +987,8 @@ events:
       - "ar"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
       - "C:/Windows/System32/"
@@ -937,11 +1013,15 @@ events:
       - "C:/Users/Vibhav verma/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Vibhav verma/AppData/Roaming/npm/"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/ar.com"
     found: "C:/msys64/ucrt64/bin/ar.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
         - "C:\\WINDOWS\\system32"
@@ -968,12 +1048,14 @@ events:
         - "C:\\Users\\Vibhav verma\\AppData\\Roaming\\npm"
         - "C:\\Users\\Vibhav verma\\PyCharm Community Edition 2024.3.3\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Vibhav verma\\AppData\\Local\\Programs\\Ollama"
+        - "c:\\Users\\Vibhav verma\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_RANLIB"
     description: "Path to a program."
@@ -989,6 +1071,8 @@ events:
       - "ranlib"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
       - "C:/Windows/System32/"
@@ -1013,11 +1097,15 @@ events:
       - "C:/Users/Vibhav verma/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Vibhav verma/AppData/Roaming/npm/"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/ranlib.com"
     found: "C:/msys64/ucrt64/bin/ranlib.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
         - "C:\\WINDOWS\\system32"
@@ -1044,12 +1132,14 @@ events:
         - "C:\\Users\\Vibhav verma\\AppData\\Roaming\\npm"
         - "C:\\Users\\Vibhav verma\\PyCharm Community Edition 2024.3.3\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Vibhav verma\\AppData\\Local\\Programs\\Ollama"
+        - "c:\\Users\\Vibhav verma\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_STRIP"
     description: "Path to a program."
@@ -1065,6 +1155,8 @@ events:
       - "strip"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
       - "C:/Windows/System32/"
@@ -1089,11 +1181,15 @@ events:
       - "C:/Users/Vibhav verma/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Vibhav verma/AppData/Roaming/npm/"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/strip.com"
     found: "C:/msys64/ucrt64/bin/strip.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
         - "C:\\WINDOWS\\system32"
@@ -1120,12 +1216,14 @@ events:
         - "C:\\Users\\Vibhav verma\\AppData\\Roaming\\npm"
         - "C:\\Users\\Vibhav verma\\PyCharm Community Edition 2024.3.3\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Vibhav verma\\AppData\\Local\\Programs\\Ollama"
+        - "c:\\Users\\Vibhav verma\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
     description: "Path to a program."
@@ -1141,6 +1239,8 @@ events:
       - "ld"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
       - "C:/Windows/System32/"
@@ -1165,11 +1265,15 @@ events:
       - "C:/Users/Vibhav verma/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Vibhav verma/AppData/Roaming/npm/"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/ld.com"
     found: "C:/msys64/ucrt64/bin/ld.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
         - "C:\\WINDOWS\\system32"
@@ -1196,12 +1300,14 @@ events:
         - "C:\\Users\\Vibhav verma\\AppData\\Roaming\\npm"
         - "C:\\Users\\Vibhav verma\\PyCharm Community Edition 2024.3.3\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Vibhav verma\\AppData\\Local\\Programs\\Ollama"
+        - "c:\\Users\\Vibhav verma\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_NM"
     description: "Path to a program."
@@ -1217,6 +1323,8 @@ events:
       - "nm"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
       - "C:/Windows/System32/"
@@ -1241,11 +1349,15 @@ events:
       - "C:/Users/Vibhav verma/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Vibhav verma/AppData/Roaming/npm/"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/nm.com"
     found: "C:/msys64/ucrt64/bin/nm.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
         - "C:\\WINDOWS\\system32"
@@ -1272,12 +1384,14 @@ events:
         - "C:\\Users\\Vibhav verma\\AppData\\Roaming\\npm"
         - "C:\\Users\\Vibhav verma\\PyCharm Community Edition 2024.3.3\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Vibhav verma\\AppData\\Local\\Programs\\Ollama"
+        - "c:\\Users\\Vibhav verma\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_OBJDUMP"
     description: "Path to a program."
@@ -1293,6 +1407,8 @@ events:
       - "objdump"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
       - "C:/Windows/System32/"
@@ -1317,11 +1433,15 @@ events:
       - "C:/Users/Vibhav verma/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Vibhav verma/AppData/Roaming/npm/"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/objdump.com"
     found: "C:/msys64/ucrt64/bin/objdump.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
         - "C:\\WINDOWS\\system32"
@@ -1348,12 +1468,14 @@ events:
         - "C:\\Users\\Vibhav verma\\AppData\\Roaming\\npm"
         - "C:\\Users\\Vibhav verma\\PyCharm Community Edition 2024.3.3\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Vibhav verma\\AppData\\Local\\Programs\\Ollama"
+        - "c:\\Users\\Vibhav verma\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_OBJCOPY"
     description: "Path to a program."
@@ -1369,6 +1491,8 @@ events:
       - "objcopy"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
       - "C:/Windows/System32/"
@@ -1393,11 +1517,15 @@ events:
       - "C:/Users/Vibhav verma/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Vibhav verma/AppData/Roaming/npm/"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/objcopy.com"
     found: "C:/msys64/ucrt64/bin/objcopy.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
         - "C:\\WINDOWS\\system32"
@@ -1424,12 +1552,14 @@ events:
         - "C:\\Users\\Vibhav verma\\AppData\\Roaming\\npm"
         - "C:\\Users\\Vibhav verma\\PyCharm Community Edition 2024.3.3\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Vibhav verma\\AppData\\Local\\Programs\\Ollama"
+        - "c:\\Users\\Vibhav verma\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_READELF"
     description: "Path to a program."
@@ -1445,6 +1575,8 @@ events:
       - "readelf"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
       - "C:/Windows/System32/"
@@ -1469,11 +1601,15 @@ events:
       - "C:/Users/Vibhav verma/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Vibhav verma/AppData/Roaming/npm/"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/readelf.com"
     found: "C:/msys64/ucrt64/bin/readelf.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
         - "C:\\WINDOWS\\system32"
@@ -1500,12 +1636,14 @@ events:
         - "C:\\Users\\Vibhav verma\\AppData\\Roaming\\npm"
         - "C:\\Users\\Vibhav verma\\PyCharm Community Edition 2024.3.3\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Vibhav verma\\AppData\\Local\\Programs\\Ollama"
+        - "c:\\Users\\Vibhav verma\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_DLLTOOL"
     description: "Path to a program."
@@ -1521,6 +1659,8 @@ events:
       - "dlltool"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
       - "C:/Windows/System32/"
@@ -1545,11 +1685,15 @@ events:
       - "C:/Users/Vibhav verma/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Vibhav verma/AppData/Roaming/npm/"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/dlltool.com"
     found: "C:/msys64/ucrt64/bin/dlltool.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
         - "C:\\WINDOWS\\system32"
@@ -1576,12 +1720,14 @@ events:
         - "C:\\Users\\Vibhav verma\\AppData\\Roaming\\npm"
         - "C:\\Users\\Vibhav verma\\PyCharm Community Edition 2024.3.3\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Vibhav verma\\AppData\\Local\\Programs\\Ollama"
+        - "c:\\Users\\Vibhav verma\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_ADDR2LINE"
     description: "Path to a program."
@@ -1597,6 +1743,8 @@ events:
       - "addr2line"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
       - "C:/Windows/System32/"
@@ -1621,11 +1769,15 @@ events:
       - "C:/Users/Vibhav verma/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Vibhav verma/AppData/Roaming/npm/"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/addr2line.com"
     found: "C:/msys64/ucrt64/bin/addr2line.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
         - "C:\\WINDOWS\\system32"
@@ -1652,12 +1804,14 @@ events:
         - "C:\\Users\\Vibhav verma\\AppData\\Roaming\\npm"
         - "C:\\Users\\Vibhav verma\\PyCharm Community Edition 2024.3.3\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Vibhav verma\\AppData\\Local\\Programs\\Ollama"
+        - "c:\\Users\\Vibhav verma\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_TAPI"
     description: "Path to a program."
@@ -1673,6 +1827,8 @@ events:
       - "tapi"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
       - "C:/Windows/System32/"
@@ -1697,10 +1853,18 @@ events:
       - "C:/Users/Vibhav verma/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Vibhav verma/AppData/Roaming/npm/"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/tapi.com"
       - "C:/msys64/ucrt64/bin/tapi.exe"
       - "C:/msys64/ucrt64/bin/tapi"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/tapi.com"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/tapi.exe"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/tapi"
@@ -1773,9 +1937,17 @@ events:
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/tapi.com"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/tapi.exe"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/tapi"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/tapi.com"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/tapi.exe"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/tapi"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/tapi.com"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/tapi.exe"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/tapi"
     found: false
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
         - "C:\\WINDOWS\\system32"
@@ -1802,12 +1974,14 @@ events:
         - "C:\\Users\\Vibhav verma\\AppData\\Roaming\\npm"
         - "C:\\Users\\Vibhav verma\\PyCharm Community Edition 2024.3.3\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Vibhav verma\\AppData\\Local\\Programs\\Ollama"
+        - "c:\\Users\\Vibhav verma\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1826,6 +2000,8 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
       - "C:/Windows/System32/"
@@ -1850,10 +2026,18 @@ events:
       - "C:/Users/Vibhav verma/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Vibhav verma/AppData/Roaming/npm/"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/gcc-ar-16.1.com"
       - "C:/msys64/ucrt64/bin/gcc-ar-16.1.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar-16.1"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16.1.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16.1.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16.1"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-16.1.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-16.1.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-16.1"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/gcc-ar-16.1.com"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/gcc-ar-16.1.exe"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/gcc-ar-16.1"
@@ -1926,9 +2110,21 @@ events:
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/gcc-ar-16.1.com"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/gcc-ar-16.1.exe"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/gcc-ar-16.1"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/gcc-ar-16.1.com"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/gcc-ar-16.1.exe"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/gcc-ar-16.1"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-16.1.com"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-16.1.exe"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-16.1"
       - "C:/msys64/ucrt64/bin/gcc-ar-16.com"
       - "C:/msys64/ucrt64/bin/gcc-ar-16.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar-16"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-16.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-16.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-16"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/gcc-ar-16.com"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/gcc-ar-16.exe"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/gcc-ar-16"
@@ -2001,9 +2197,21 @@ events:
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/gcc-ar-16.com"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/gcc-ar-16.exe"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/gcc-ar-16"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/gcc-ar-16.com"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/gcc-ar-16.exe"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/gcc-ar-16"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-16.com"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-16.exe"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar-16"
       - "C:/msys64/ucrt64/bin/gcc-ar16.com"
       - "C:/msys64/ucrt64/bin/gcc-ar16.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar16"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar16.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar16.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar16"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar16.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar16.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar16"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/gcc-ar16.com"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/gcc-ar16.exe"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/gcc-ar16"
@@ -2076,10 +2284,18 @@ events:
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/gcc-ar16.com"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/gcc-ar16.exe"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/gcc-ar16"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/gcc-ar16.com"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/gcc-ar16.exe"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/gcc-ar16"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar16.com"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar16.exe"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ar16"
       - "C:/msys64/ucrt64/bin/gcc-ar.com"
     found: "C:/msys64/ucrt64/bin/gcc-ar.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
         - "C:\\WINDOWS\\system32"
@@ -2106,12 +2322,14 @@ events:
         - "C:\\Users\\Vibhav verma\\AppData\\Roaming\\npm"
         - "C:\\Users\\Vibhav verma\\PyCharm Community Edition 2024.3.3\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Vibhav verma\\AppData\\Local\\Programs\\Ollama"
+        - "c:\\Users\\Vibhav verma\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -2130,6 +2348,8 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
       - "C:/Windows/System32/"
@@ -2154,10 +2374,18 @@ events:
       - "C:/Users/Vibhav verma/AppData/Local/GitHubDesktop/bin/"
       - "C:/Users/Vibhav verma/AppData/Roaming/npm/"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16.1.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16.1.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16.1"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16.1.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16.1.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16.1"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-16.1.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-16.1.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-16.1"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/gcc-ranlib-16.1.com"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/gcc-ranlib-16.1.exe"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/gcc-ranlib-16.1"
@@ -2230,9 +2458,21 @@ events:
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/gcc-ranlib-16.1.com"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/gcc-ranlib-16.1.exe"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/gcc-ranlib-16.1"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/gcc-ranlib-16.1.com"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/gcc-ranlib-16.1.exe"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/gcc-ranlib-16.1"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-16.1.com"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-16.1.exe"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-16.1"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-16"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-16.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-16.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-16"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/gcc-ranlib-16.com"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/gcc-ranlib-16.exe"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/gcc-ranlib-16"
@@ -2305,9 +2545,21 @@ events:
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/gcc-ranlib-16.com"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/gcc-ranlib-16.exe"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/gcc-ranlib-16"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/gcc-ranlib-16.com"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/gcc-ranlib-16.exe"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/gcc-ranlib-16"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-16.com"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-16.exe"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib-16"
       - "C:/msys64/ucrt64/bin/gcc-ranlib16.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib16.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib16"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib16.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib16.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib16"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib16.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib16.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib16"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/gcc-ranlib16.com"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/gcc-ranlib16.exe"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/gcc-ranlib16"
@@ -2380,10 +2632,18 @@ events:
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/gcc-ranlib16.com"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/gcc-ranlib16.exe"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/gcc-ranlib16"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/gcc-ranlib16.com"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/gcc-ranlib16.exe"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/gcc-ranlib16"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib16.com"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib16.exe"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gcc-ranlib16"
       - "C:/msys64/ucrt64/bin/gcc-ranlib.com"
     found: "C:/msys64/ucrt64/bin/gcc-ranlib.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
         - "C:\\WINDOWS\\system32"
@@ -2410,6 +2670,8 @@ events:
         - "C:\\Users\\Vibhav verma\\AppData\\Roaming\\npm"
         - "C:\\Users\\Vibhav verma\\PyCharm Community Edition 2024.3.3\\bin"
         - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\Vibhav verma\\AppData\\Local\\Programs\\Ollama"
+        - "c:\\Users\\Vibhav verma\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2417,7 +2679,7 @@ events:
       - "C:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU.cmake:169 (enable_language)"
       - "C:/msys64/ucrt64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake:2 (__windows_compiler_gnu)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXInformation.cmake:48 (include)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     mode: "program"
     variable: "CMAKE_RC_COMPILER"
     description: "RC compiler"
@@ -2433,6 +2695,8 @@ events:
       - "windres"
       - "windres"
     candidate_directories:
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp/"
       - "C:/Windows/System32/"
@@ -2458,6 +2722,8 @@ events:
       - "C:/Users/Vibhav verma/AppData/Roaming/npm/"
       - "C:/Users/Vibhav verma/PyCharm Community Edition 2024.3.3/bin/"
       - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/Vibhav verma/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Vibhav verma/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -2467,10 +2733,16 @@ events:
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/ucrt64/sbin/"
       - "C:/msys64/ucrt64/"
-      - "C:/Program Files (x86)/CPP_PRACTISE/bin/"
-      - "C:/Program Files (x86)/CPP_PRACTISE/sbin/"
-      - "C:/Program Files (x86)/CPP_PRACTISE/"
+      - "C:/Program Files (x86)/CPP-Backend-Prep/bin/"
+      - "C:/Program Files (x86)/CPP-Backend-Prep/sbin/"
+      - "C:/Program Files (x86)/CPP-Backend-Prep/"
     searched_directories:
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/windres.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/windres.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/windres"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/windres.com"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/windres.exe"
+      - "C:/Users/Vibhav verma/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/windres"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/windres.com"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/windres.exe"
       - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin/windres"
@@ -2547,6 +2819,8 @@ events:
     found: "C:/msys64/ucrt64/bin/windres.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Vibhav verma\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\bin"
         - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.6\\libnvvp"
         - "C:\\WINDOWS\\system32"
@@ -2573,23 +2847,25 @@ events:
         - "C:\\Users\\Vibhav verma\\AppData\\Roaming\\npm"
         - "C:\\Users\\Vibhav verma\\PyCharm Community Edition 2024.3.3\\bin"
         - "C:\\msys64\\ucrt64\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CPP_PRACTISE"
+        - "C:\\Users\\Vibhav verma\\AppData\\Local\\Programs\\Ollama"
+        - "c:\\Users\\Vibhav verma\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CPP-Backend-Prep"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/msys64/ucrt64"
-        - "C:/Program Files (x86)/CPP_PRACTISE"
+        - "C:/Program Files (x86)/CPP-Backend-Prep"
   -
     kind: "try_compile-v1"
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "E:/CPP_Projects/CPP_Practise/build/CMakeFiles/CMakeScratch/TryCompile-3ofsim"
-      binary: "E:/CPP_Projects/CPP_Practise/build/CMakeFiles/CMakeScratch/TryCompile-3ofsim"
+      source: "E:/CPP_Projects/CPP-Backend-Prep/build/CMakeFiles/CMakeScratch/TryCompile-i91pxc"
+      binary: "E:/CPP_Projects/CPP-Backend-Prep/build/CMakeFiles/CMakeScratch/TryCompile-i91pxc"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2600,10 +2876,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/CPP_Projects/CPP_Practise/build/CMakeFiles/CMakeScratch/TryCompile-3ofsim'
+        Change Dir: 'E:/CPP_Projects/CPP-Backend-Prep/build/CMakeFiles/CMakeScratch/TryCompile-i91pxc'
         
-        Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_49010
-        [1/2] C:\\msys64\\ucrt64\\bin\\c++.exe   -v -o CMakeFiles/cmTC_49010.dir/CMakeCXXCompilerABI.cpp.obj -c C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_38463
+        [1/2] C:\\msys64\\ucrt64\\bin\\c++.exe   -v -o CMakeFiles/cmTC_38463.dir/CMakeCXXCompilerABI.cpp.obj -c C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\c++.exe
         Target: x86_64-w64-mingw32
@@ -2611,8 +2887,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.1.0 (Rev5, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_49010.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_49010.dir/'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_49010.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\VIBHAV~1\\AppData\\Local\\Temp\\ccxKdXhn.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_38463.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_38463.dir/'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_38463.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\VIBHAV~1\\AppData\\Local\\Temp\\ccNgNkXq.s
         GNU C++20 (Rev5, Built by MSYS2 project) version 16.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 16.1.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.27-GMP
         
@@ -2636,13 +2912,13 @@ events:
          C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/include-fixed
         End of search list.
         Compiler executable checksum: c17fb94a142b10fdb3ae88ea0e837cbf
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_49010.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_49010.dir/'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_49010.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\VIBHAV~1\\AppData\\Local\\Temp\\ccxKdXhn.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_38463.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_38463.dir/'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_38463.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\VIBHAV~1\\AppData\\Local\\Temp\\ccNgNkXq.s
         GNU assembler version 2.46 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_49010.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_49010.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\c++.exe  -v -Wl,-v CMakeFiles/cmTC_49010.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_49010.exe -Wl,--out-implib,libcmTC_49010.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_38463.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_38463.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\c++.exe  -v -Wl,-v CMakeFiles/cmTC_38463.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_38463.exe -Wl,--out-implib,libcmTC_38463.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\c++.exe
         COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe
@@ -2653,12 +2929,12 @@ events:
         gcc version 16.1.0 (Rev5, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_49010.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_49010.'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VIBHAV~1\\AppData\\Local\\Temp\\cc1LOFLP.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_49010.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_49010.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_49010.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_38463.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_38463.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VIBHAV~1\\AppData\\Local\\Temp\\ccRegDVA.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_38463.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_38463.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_38463.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
         collect2 version 16.1.0
-        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VIBHAV~1\\AppData\\Local\\Temp\\cc1LOFLP.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_49010.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_49010.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_49010.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VIBHAV~1\\AppData\\Local\\Temp\\ccRegDVA.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_38463.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_38463.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_38463.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
         GNU ld (GNU Binutils) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_49010.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_49010.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_38463.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_38463.'
         
       exitCode: 0
   -
@@ -2666,7 +2942,7 @@ events:
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
@@ -2692,15 +2968,15 @@ events:
     backtrace:
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'E:/CPP_Projects/CPP_Practise/build/CMakeFiles/CMakeScratch/TryCompile-3ofsim']
+        ignore line: [Change Dir: 'E:/CPP_Projects/CPP-Backend-Prep/build/CMakeFiles/CMakeScratch/TryCompile-i91pxc']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_49010]
-        ignore line: [[1/2] C:\\msys64\\ucrt64\\bin\\c++.exe   -v -o CMakeFiles/cmTC_49010.dir/CMakeCXXCompilerABI.cpp.obj -c C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_38463]
+        ignore line: [[1/2] C:\\msys64\\ucrt64\\bin\\c++.exe   -v -o CMakeFiles/cmTC_38463.dir/CMakeCXXCompilerABI.cpp.obj -c C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\c++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -2708,8 +2984,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.1.0 (Rev5  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_49010.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_49010.dir/']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_49010.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\VIBHAV~1\\AppData\\Local\\Temp\\ccxKdXhn.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_38463.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_38463.dir/']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:/msys64/ucrt64/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_38463.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\VIBHAV~1\\AppData\\Local\\Temp\\ccNgNkXq.s]
         ignore line: [GNU C++20 (Rev5  Built by MSYS2 project) version 16.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 16.1.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -2733,8 +3009,8 @@ events:
         ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: c17fb94a142b10fdb3ae88ea0e837cbf]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_49010.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_49010.dir/']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_49010.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\VIBHAV~1\\AppData\\Local\\Temp\\ccxKdXhn.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_38463.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_38463.dir/']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_38463.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\VIBHAV~1\\AppData\\Local\\Temp\\ccNgNkXq.s]
         ignore line: [GNU assembler version 2.46 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46]
         ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
@@ -2745,8 +3021,8 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_49010.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_49010.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\c++.exe  -v -Wl -v CMakeFiles/cmTC_49010.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_49010.exe -Wl --out-implib libcmTC_49010.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_38463.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_38463.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\c++.exe  -v -Wl -v CMakeFiles/cmTC_38463.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_38463.exe -Wl --out-implib libcmTC_38463.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\c++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe]
@@ -2764,13 +3040,13 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_49010.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_49010.']
-        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VIBHAV~1\\AppData\\Local\\Temp\\cc1LOFLP.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_49010.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_49010.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_49010.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_38463.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_38463.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VIBHAV~1\\AppData\\Local\\Temp\\ccRegDVA.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_38463.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_38463.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_38463.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\VIBHAV~1\\AppData\\Local\\Temp\\cc1LOFLP.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\VIBHAV~1\\AppData\\Local\\Temp\\ccRegDVA.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -2792,7 +3068,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_49010.exe] ==> ignore
+          arg [cmTC_38463.exe] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0]
@@ -2802,9 +3078,9 @@ events:
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_49010.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_38463.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_49010.dll.a] ==> ignore
+          arg [libcmTC_38463.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -2830,7 +3106,7 @@ events:
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
         ignore line: [collect2 version 16.1.0]
-        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VIBHAV~1\\AppData\\Local\\Temp\\cc1LOFLP.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_49010.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_49010.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_49010.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\VIBHAV~1\\AppData\\Local\\Temp\\ccRegDVA.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_38463.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v CMakeFiles/cmTC_38463.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_38463.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
         linker tool for 'CXX': C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]
@@ -2856,7 +3132,7 @@ events:
       - "C:/msys64/ucrt64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "C:/msys64/ucrt64/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:3 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Running the CXX compiler's linker: "C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe" "-v"
       GNU ld (GNU Binutils) 2.46

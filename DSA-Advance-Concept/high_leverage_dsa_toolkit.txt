@@ -1,0 +1,66 @@
+HIGH-LEVERAGE DSA TOOLKIT
+
+This file tracks the most valuable algorithm patterns to master for building strong problem-solving intuition.
+
+| Priority | Topic | Why it matters | Example problem patterns |
+|:--------:|:------|:--------------|:----------------------|
+| 1 | Recursion + Backtracking | Builds decision-making and exploration mindset | Subsets, Permutations, Combination Sum, N-Queens, Word Search |
+| 2 | Binary Search on Answer | Helps transform optimization problems into yes/no checks | Koko Eating Bananas, Aggressive Cows, Capacity to Ship Packages |
+| 3 | Sliding Window | Great for contiguous subarray or substring problems | Longest Substring Without Repeating Characters, Minimum Window Substring |
+| 4 | Two Pointers | Useful for sorted arrays, linked lists, and partitioning | 3Sum, Palindrome, Merge Two Sorted Lists |
+| 5 | Monotonic Stack | Solves nearest greater/smaller element problems | Next Greater Element, Daily Temperatures, Largest Rectangle in Histogram |
+| 6 | Heap / Priority Queue | Essential for top-k, ordering, and optimization | Kth Largest, Merge K Sorted Lists, Median in a Stream |
+| 7 | Greedy Algorithms | Teaches local decision-making with correctness reasoning | Activity Selection, Interval Scheduling, Jump Game |
+| 8 | Graph Traversal | Critical for connectivity, exploration, and BFS/DFS reasoning | Number of Islands, Rotting Oranges, Connected Components |
+| 9 | Topological Sort | Helps when tasks depend on ordering | Course Schedule, Dependency/Prerequisite ordering |
+| 10 | Shortest Path | Core for weighted and unweighted graph problems | BFS, Dijkstra, Bellman-Ford |
+| 11 | Union-Find / DSU | Great for connectivity and grouping patterns | Number of Connected Components, Cycle Detection, Kruskal |
+| 12 | Dynamic Programming | The biggest mindset builder for overlapping subproblems | Climbing Stairs, House Robber, LCS, Knapsack |
+| 13 | Trie | Useful for string prefix and dictionary problems | Word Search, Prefix Matches, Autocomplete |
+| 14 | Bit Manipulation | Helps with compact state and subset logic | XOR tricks, Bitmask subset generation, Power of Two |
+| 15 | Divide and Conquer | Good pattern for recursive decomposition | Merge Sort, Quick Sort, Binary Search |
+
+CORE FOCUS FOR THIS ADVANCED DSA PHASE
+
+- Recursion + Backtracking
+- Binary Search on Answer
+- Sliding Window
+- Monotonic Stack
+- Heap / Priority Queue
+- Greedy Algorithms
+- Graph Traversal Patterns
+- Topological Sort
+- Dijkstra's Algorithm
+- A* Algorithm
+- Dynamic Programming
+- Tree Problems
+
+LEARNING METHOD
+
+For each topic:
+1. Understand the intuition
+2. Learn the standard pattern
+3. Solve one problem to confirm understanding
+4. Revisit and re-solve without looking at notes
+
+SPECIAL ATTENTION
+
+- Dijkstra's Algorithm: weighted shortest path with positive edges
+- A* Algorithm: heuristic-driven shortest path search
+- Graph and tree problems: focus on traversal and state logic
+- DP: first understand state, then transitions, then base cases
+
+FINAL PRIORITY ORDER
+
+1. Recursion + Backtracking
+2. Dynamic Programming
+3. Binary Search on Answer
+4. Heap + Greedy
+5. Monotonic Stack
+6. Graph BFS/DFS patterns
+7. Topological Sort
+8. Dijkstra / Shortest Path
+9. Sliding Window
+10. Two Pointers
+11. Union-Find
+12. Trie

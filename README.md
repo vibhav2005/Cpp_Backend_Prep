@@ -67,3 +67,4 @@ This project is designed for self-driven revision and practice. Each folder cont
 
 This repository is intended for personal C++ revision, practice, and improvement.
 
+NOTE = MODDDIFY CMAKE LISTS ACCORDING TO THE FILE U WANT TO RUN!

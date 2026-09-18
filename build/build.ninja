@@ -44,8 +44,8 @@ cmake_ninja_workdir = E$:/CPP_Projects/CPP-Backend-Prep/build/
 
 build cmake_object_order_depends_target_CPP-Backend-Prep: phony || .
 
-build CMakeFiles/CPP-Backend-Prep.dir/CPP-Projects/Project1--Thread-Safe_Task_Queue.cpp.obj: CXX_COMPILER__CPP-Backend-Prep_unscanned_ E$:/CPP_Projects/CPP-Backend-Prep/CPP-Projects/Project1--Thread-Safe_Task_Queue.cpp || cmake_object_order_depends_target_CPP-Backend-Prep
-  DEP_FILE = CMakeFiles\CPP-Backend-Prep.dir\CPP-Projects\Project1--Thread-Safe_Task_Queue.cpp.obj.d
+build CMakeFiles/CPP-Backend-Prep.dir/CPP-Projects/Thread_Practise.cpp.obj: CXX_COMPILER__CPP-Backend-Prep_unscanned_ E$:/CPP_Projects/CPP-Backend-Prep/CPP-Projects/Thread_Practise.cpp || cmake_object_order_depends_target_CPP-Backend-Prep
+  DEP_FILE = CMakeFiles\CPP-Backend-Prep.dir\CPP-Projects\Thread_Practise.cpp.obj.d
   FLAGS = -std=gnu++17
   OBJECT_DIR = CMakeFiles\CPP-Backend-Prep.dir
   OBJECT_FILE_DIR = CMakeFiles\CPP-Backend-Prep.dir\CPP-Projects
@@ -59,7 +59,7 @@ build CMakeFiles/CPP-Backend-Prep.dir/CPP-Projects/Project1--Thread-Safe_Task_Qu
 #############################################
 # Link the executable CPP-Backend-Prep.exe
 
-build CPP-Backend-Prep.exe: CXX_EXECUTABLE_LINKER__CPP-Backend-Prep_ CMakeFiles/CPP-Backend-Prep.dir/CPP-Projects/Project1--Thread-Safe_Task_Queue.cpp.obj
+build CPP-Backend-Prep.exe: CXX_EXECUTABLE_LINKER__CPP-Backend-Prep_ CMakeFiles/CPP-Backend-Prep.dir/CPP-Projects/Thread_Practise.cpp.obj
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CPP-Backend-Prep.dir
   POST_BUILD = cd .

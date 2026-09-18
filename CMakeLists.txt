@@ -6,5 +6,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(
     CPP-Backend-Prep
-    CPP-Projects/Project1--Thread-Safe_Task_Queue.cpp
+    CPP-Projects/Thread_Practise.cpp
 )
